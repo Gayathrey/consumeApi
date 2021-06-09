@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(194, 213, 224);
+   
+}
+
+.alledyr {
+    padding: 0.75;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-top: 80px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.animallist_name{
+    width: 8em;
+}
+
+.animallist_type {
+    width: 5em;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: (0,0,0,0.2) ;
+}
+
+.ahref {
+    display: flex;    
+}
+
+.span {
+    display: flex;
+}
+
+.animallist_item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.navigation {
+    padding: 40px;
+    text-align: center;
+}
+
+input {
+    display: flex;
+    align-items: center ;
+ }
+
+ .formgroup {
+    padding-left: 20px;
+ }
+
+ .subBtn {
+    margin-top: 40px;
+    margin-left: 20px;
+ }
+
+ #updateanimal {
+     padding-top: 30px;
+ }
+
+ h2 {
+    text-align: center;
+ }
+ 
